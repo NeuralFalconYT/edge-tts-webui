@@ -26,7 +26,7 @@ source_lang_list.extend(languages.keys())
 @click.option("--debug", is_flag=True, default=False, help="Enable debug mode.")
 @click.option("--share", is_flag=True, default=False, help="Enable sharing of the interface.")
 def main(debug, share):
-    description = """Edge-TTS"""
+    description = """edge-tts GitHub [https://github.com/rany2/edge-tts]"""
     # Define Gradio inputs and outputs
     example=[["This is just beginning of the journey of AI, AI will take over the world soon",
             "English",
@@ -51,8 +51,7 @@ def main(debug, share):
     ]
 
     # Create Gradio interface
-    demo = gr.Interface(fn=tts, inputs=gradio_inputs, outputs=gradio_outputs, title="Edge TTS ",examples=example)
-                        #description=description)
+    demo = gr.Interface(fn=tts, inputs=gradio_inputs, outputs=gradio_outputs, title="Edge TTS ",examples=example,description=description)
 
     # Launch Gradio with command-line options
     demo.queue().launch(allowed_paths=[f"./audio"],debug=debug, share=share)
