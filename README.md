@@ -1,4 +1,4 @@
-# Auto Subtitle Generator Using Whisper-Large-V3-Turbo-Ct2
+# Edge-TTS-WebUI using edge-tts and gradio
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NeuralFalconYT/edge-tts-webui/blob/main/edge_tts_webui_colab.ipynb) <br>
 [![hfspace](https://img.shields.io/badge/🤗-Space%20demo-yellow)](https://huggingface.co/spaces/NeuralFalcon/Edge-TTS) <br>
 This application can run on CPU or CUDA.
