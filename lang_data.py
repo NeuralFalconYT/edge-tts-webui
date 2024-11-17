@@ -146,7 +146,7 @@ female_voice_list={'Vietnamese': 'vi-VN-HoaiMyNeural',
 male_voice_list= {'Vietnamese': 'vi-VN-NamMinhNeural',
  'Bengali': 'bn-BD-PradeepNeural',
  'Thai': 'th-TH-NiwatNeural',
- 'English': 'en-US-BrianMultilingualNeural',
+ 'English': 'en-US-BrianMultilingualNeural', #"en-US-BrianNeural"
  'Portuguese': 'pt-BR-AntonioNeural',
  'Arabic': 'ar-AE-HamdanNeural',
  'Turkish': 'tr-TR-AhmetNeural',
